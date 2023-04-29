@@ -5,20 +5,20 @@
   font-family: "Heebo", sans-serif;
 }
 
-#home-browsing {
+#platform-redesign {
   overflow-x: hidden;
 }
-#home-browsing .md {
+#platform-redesign .md {
   display: none;
 }
-#home-browsing .header-image {
+#platform-redesign .header-image {
   background-image: url("../asset/header.png");
   height: 539px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-#home-browsing .description {
+#platform-redesign .description {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -26,22 +26,22 @@
   padding: 100px;
   background-color: #F9F9F9;
 }
-#home-browsing .description .title {
+#platform-redesign .description .title {
   color: #868686;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.01em;
   margin-bottom: 10px;
 }
-#home-browsing .description .role-text {
+#platform-redesign .description .role-text {
   font-size: 21px;
   line-height: 29px;
   color: #3F3F3F;
 }
-#home-browsing .description .role-text span {
+#platform-redesign .description .role-text span {
   font-weight: 700;
 }
-#home-browsing .description .project-text {
+#platform-redesign .description .project-text {
   white-space: nowrap;
   margin-top: 10px;
   font-size: 16px;
@@ -49,7 +49,7 @@
   letter-spacing: 0.01em;
   color: #3F3F3F;
 }
-#home-browsing .background {
+#platform-redesign .background {
   background-color: #3F3F3F;
   padding: 100px;
   display: flex;
@@ -57,22 +57,22 @@
   justify-content: center;
   flex-direction: column;
 }
-#home-browsing .background .section-name {
+#platform-redesign .background .section-name {
   margin-bottom: 15px;
   color: #ffffff;
 }
-#home-browsing .background .section-title {
+#platform-redesign .background .section-title {
   margin-bottom: 100px;
   color: #FFFFFF;
 }
-#home-browsing .user-insights {
+#platform-redesign .user-insights {
   padding: 100px 90px 50px;
   background-color: #F9F9F9;
 }
-#home-browsing .user-insights .section-name {
+#platform-redesign .user-insights .section-name {
   color: #3F3F3F;
 }
-#home-browsing .user-insights .inner-title {
+#platform-redesign .user-insights .inner-title {
   font-size: 28px;
   line-height: 38px;
   color: #3F3F3F;
@@ -80,13 +80,13 @@
   margin-top: 100px;
   margin-bottom: 50px;
 }
-#home-browsing .user-insights .user-insights-cards {
+#platform-redesign .user-insights .user-insights-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   gap: 50px;
 }
-#home-browsing .user-insights .user-insights-cards .card {
+#platform-redesign .user-insights .user-insights-cards .card {
   border: 1px solid #E1E1E1;
   background-color: #FFFFFF;
   display: flex;
@@ -94,11 +94,11 @@
   justify-content: flex-start;
   flex-direction: column;
 }
-#home-browsing .user-insights .user-insights-cards .card img {
+#platform-redesign .user-insights .user-insights-cards .card img {
   margin: 0 auto;
   border: 15px solid #FFFFFF;
 }
-#home-browsing .user-insights .user-insights-cards .card .name {
+#platform-redesign .user-insights .user-insights-cards .card .name {
   margin-top: 15px;
   margin-left: 20px;
   margin-bottom: 10px;
@@ -106,7 +106,7 @@
   font-size: 21px;
   line-height: 29px;
 }
-#home-browsing .user-insights .user-insights-cards .card .text {
+#platform-redesign .user-insights .user-insights-cards .card .text {
   margin-left: 20px;
   padding-bottom: 20px;
   color: #868686;
@@ -115,10 +115,10 @@
   line-height: 24px;
   padding-right: 20px;
 }
-#home-browsing .stakeholder-insights {
+#platform-redesign .stakeholder-insights {
   padding: 50px 100px 100px;
 }
-#home-browsing .stakeholder-insights .inner-title {
+#platform-redesign .stakeholder-insights .inner-title {
   font-size: 28px;
   line-height: 38px;
   color: #3F3F3F;
@@ -126,7 +126,7 @@
   margin-bottom: 50px;
   text-align: center;
 }
-#home-browsing .stakeholder-insights .inner-text {
+#platform-redesign .stakeholder-insights .inner-text {
   color: #868686;
   font-weight: 400;
   font-size: 16px;
@@ -134,71 +134,71 @@
   text-align: center;
   margin-bottom: 50px;
 }
-#home-browsing .stakeholder-insights .stakeholder-insights-card {
+#platform-redesign .stakeholder-insights .stakeholder-insights-card {
   padding: 20px;
   background: #F9F9F9;
   border: 1px solid #E1E1E1;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.02);
 }
-#home-browsing .stakeholder-insights .stakeholder-insights-card img {
+#platform-redesign .stakeholder-insights .stakeholder-insights-card img {
   margin: 0 auto;
   width: 100%;
 }
-#home-browsing .stakeholder-insights .stakeholder-insights-card .name {
+#platform-redesign .stakeholder-insights .stakeholder-insights-card .name {
   color: #3F3F3F;
   font-size: 21px;
   line-height: 29px;
   margin-top: 20px;
 }
-#home-browsing .stakeholder-insights .stakeholder-insights-card .text {
+#platform-redesign .stakeholder-insights .stakeholder-insights-card .text {
   color: #868686;
   letter-spacing: 0.01em;
   font-size: 16px;
   line-height: 24px;
   margin-top: 10px;
 }
-#home-browsing .conclusions {
+#platform-redesign .conclusions {
   background-color: #3F3F3F;
   padding: 100px;
 }
-#home-browsing .conclusions .section-name {
+#platform-redesign .conclusions .section-name {
   margin-bottom: 15px;
   color: #FFFFFF;
 }
-#home-browsing .conclusions .section-title {
+#platform-redesign .conclusions .section-title {
   margin-bottom: 50px;
   color: #FFFFFF;
 }
-#home-browsing .conclusions .conclusions-cards {
+#platform-redesign .conclusions .conclusions-cards {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
 }
-#home-browsing .conclusions .conclusions-cards .card {
+#platform-redesign .conclusions .conclusions-cards .card {
   max-width: 570px;
 }
-#home-browsing .conclusions .conclusions-cards .card img {
+#platform-redesign .conclusions .conclusions-cards .card img {
   margin-bottom: 25px;
 }
-#home-browsing .conclusions .conclusions-cards .card .name {
+#platform-redesign .conclusions .conclusions-cards .card .name {
   color: #F9F9F9;
   letter-spacing: 0.01em;
   font-size: 28px;
   line-height: 38px;
   margin-bottom: 10px;
 }
-#home-browsing .conclusions .conclusions-cards .card .text {
+#platform-redesign .conclusions .conclusions-cards .card .text {
   color: #F1F1F1;
   font-size: 21px;
   line-height: 29px;
 }
-#home-browsing .prototiping {
+#platform-redesign .prototiping {
   background-color: #F9F9F9;
   padding: 100px 100px 50px;
 }
-#home-browsing .prototiping .section-name {
+#platform-redesign .prototiping .section-name {
   color: #000000;
   text-align: center;
   letter-spacing: 0.01em;
@@ -206,18 +206,18 @@
   line-height: 24px;
   margin-bottom: 15px;
 }
-#home-browsing .prototiping .prototiping-wrapper {
+#platform-redesign .prototiping .prototiping-wrapper {
   margin-top: 100px;
   max-width: 100%;
 }
-#home-browsing .prototiping .prototiping-wrapper img {
+#platform-redesign .prototiping .prototiping-wrapper img {
   width: 100%;
 }
-#home-browsing .user-feedback {
+#platform-redesign .user-feedback {
   width: 100%;
   padding: 100px;
 }
-#home-browsing .user-feedback .section-subtitle {
+#platform-redesign .user-feedback .section-subtitle {
   color: #000000;
   text-align: center;
   margin-bottom: 50px;
@@ -225,20 +225,20 @@
   font-size: 24px;
   line-height: 32px;
 }
-#home-browsing .user-feedback .user-feedback-cards {
+#platform-redesign .user-feedback .user-feedback-cards {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   gap: 10px;
 }
-#home-browsing .user-feedback .user-feedback-cards .card {
+#platform-redesign .user-feedback .user-feedback-cards .card {
   background: #F9F9F9;
   width: 100%;
 }
-#home-browsing .user-feedback .user-feedback-cards .card img {
+#platform-redesign .user-feedback .user-feedback-cards .card img {
   width: 100%;
 }
-#home-browsing .user-feedback .user-feedback-cards .main-title {
+#platform-redesign .user-feedback .user-feedback-cards .main-title {
   color: #adadad;
   font-weight: 500;
   font-size: 12px;
@@ -247,29 +247,29 @@
   text-transform: uppercase;
   margin: 30px 30px 0;
 }
-#home-browsing .user-feedback .user-feedback-cards .name {
+#platform-redesign .user-feedback .user-feedback-cards .name {
   font-size: 21px;
   line-height: 29px;
   color: #000000;
   margin: 5px 30px 15px;
 }
-#home-browsing .user-feedback .user-feedback-cards .text {
+#platform-redesign .user-feedback .user-feedback-cards .text {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.01em;
   color: #adadad;
   margin: 0 30px 30px;
 }
-#home-browsing .feat-func {
+#platform-redesign .feat-func {
   padding: 100px;
   background-color: #F9F9F9;
 }
-#home-browsing .feat-func .section-name {
+#platform-redesign .feat-func .section-name {
   margin-bottom: 15px;
   padding-top: 100px;
   position: relative;
 }
-#home-browsing .feat-func .section-name::before {
+#platform-redesign .feat-func .section-name::before {
   position: absolute;
   top: 0;
   left: 100px;
@@ -278,37 +278,37 @@
   background-color: #E1E1E1;
   height: 1px;
 }
-#home-browsing .feat-func .section-title {
+#platform-redesign .feat-func .section-title {
   margin-bottom: 100px;
 }
-#home-browsing .feat-func .laptop {
+#platform-redesign .feat-func .laptop {
   background-color: #FFFFFF;
   padding: 50px;
 }
-#home-browsing .feat-func .laptop img {
+#platform-redesign .feat-func .laptop img {
   width: 100%;
 }
-#home-browsing .feat-func .laptop .title {
+#platform-redesign .feat-func .laptop .title {
   padding: 50px 50px 0;
   color: #000000;
   font-size: 28px;
   line-height: 38px;
   letter-spacing: 0.01em;
 }
-#home-browsing .feat-func .laptop .text {
+#platform-redesign .feat-func .laptop .text {
   padding: 10px 50px 0;
   font-size: 21px;
   line-height: 29px;
   color: #868686;
 }
-#home-browsing .feat-func .laptops {
+#platform-redesign .feat-func .laptops {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 50px;
 }
-#home-browsing .feat-func .laptops .inner-laptop {
+#platform-redesign .feat-func .laptops .inner-laptop {
   width: 100%;
   background-color: #FFFFFF;
   padding: 50px;
@@ -318,10 +318,10 @@
   position: relative;
   gap: 50px;
 }
-#home-browsing .feat-func .laptops .inner-laptop:first-child {
+#platform-redesign .feat-func .laptops .inner-laptop:first-child {
   margin-bottom: 100px;
 }
-#home-browsing .feat-func .laptops .inner-laptop:first-child::after {
+#platform-redesign .feat-func .laptops .inner-laptop:first-child::after {
   position: absolute;
   content: "";
   display: block;
@@ -331,31 +331,31 @@
   bottom: -50px;
   left: 0;
 }
-#home-browsing .feat-func .laptops .inner-laptop .text-wrapper {
+#platform-redesign .feat-func .laptops .inner-laptop .text-wrapper {
   max-width: 455px;
 }
-#home-browsing .feat-func .laptops .inner-laptop .title {
+#platform-redesign .feat-func .laptops .inner-laptop .title {
   color: #000000;
   font-size: 28px;
   line-height: 38px;
   letter-spacing: 0.01em;
   margin-bottom: 10px;
 }
-#home-browsing .feat-func .laptops .inner-laptop .text {
+#platform-redesign .feat-func .laptops .inner-laptop .text {
   color: #868686;
   font-size: 21px;
   line-height: 29px;
 }
-#home-browsing .final-outcomes {
+#platform-redesign .final-outcomes {
   padding: 100px;
   background-color: #3F3F3F;
   width: 100%;
 }
-#home-browsing .final-outcomes .section-name {
+#platform-redesign .final-outcomes .section-name {
   margin-bottom: 50px;
   color: #F9F9F9;
 }
-#home-browsing .final-outcomes .title {
+#platform-redesign .final-outcomes .title {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -367,20 +367,20 @@
   line-height: 48px;
   letter-spacing: 0.02em;
 }
-#home-browsing .final-outcomes .text {
+#platform-redesign .final-outcomes .text {
   font-weight: 400;
   font-size: 21px;
   line-height: 29px;
   color: #F9F9F9;
   margin-bottom: 50px;
 }
-#home-browsing .footer-mobile {
+#platform-redesign .footer-mobile {
   padding: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#home-browsing .footer-mobile .footer-mobile-wrapper {
+#platform-redesign .footer-mobile .footer-mobile-wrapper {
   background: #FFFFFF;
   border: 1px solid #E1E1E1;
   border-radius: 10px;
@@ -389,31 +389,31 @@
   justify-content: center;
   flex-direction: column;
 }
-#home-browsing .footer-mobile .footer-mobile-wrapper .sign {
+#platform-redesign .footer-mobile .footer-mobile-wrapper .sign {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   padding: 20px;
 }
-#home-browsing .footer-mobile .footer-mobile-wrapper .sign .name {
+#platform-redesign .footer-mobile .footer-mobile-wrapper .sign .name {
   color: #3F3F3F;
   font-size: 21px;
   line-height: 29px;
 }
-#home-browsing .footer-mobile .footer-mobile-wrapper .sign .date {
+#platform-redesign .footer-mobile .footer-mobile-wrapper .sign .date {
   color: #868686;
   letter-spacing: 0.01em;
   font-size: 16px;
   line-height: 24px;
 }
-#home-browsing .section-name {
+#platform-redesign .section-name {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.01em;
   text-align: center;
 }
-#home-browsing .section-title {
+#platform-redesign .section-title {
   font-size: 38px;
   font-weight: 400;
   line-height: 48px;
@@ -421,193 +421,193 @@
   letter-spacing: 0.02em;
   color: #3F3F3F;
 }
-#home-browsing .inner-title {
+#platform-redesign .inner-title {
   text-align: center;
 }
-#home-browsing .section {
+#platform-redesign .section {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 @media (min-width: 1919px) {
-  #home-browsing .section-title {
+  #platform-redesign .section-title {
     max-width: 1440px;
     margin: 0 auto 100px;
   }
-  #home-browsing .header-image {
+  #platform-redesign .header-image {
     background-image: url("../asset/header.png");
   }
-  #home-browsing .background {
+  #platform-redesign .background {
     padding: 100px 180px;
     width: 100%;
   }
-  #home-browsing .prototiping {
+  #platform-redesign .prototiping {
     padding: 100px 180px;
     width: 100%;
   }
-  #home-browsing .user-insights {
+  #platform-redesign .user-insights {
     padding: 100px 180px 50px;
   }
-  #home-browsing .stakeholder-insights {
+  #platform-redesign .stakeholder-insights {
     padding: 50px 180px 100px;
   }
-  #home-browsing .conclusions {
+  #platform-redesign .conclusions {
     padding: 100px 180px;
     width: 100%;
   }
-  #home-browsing .conclusions .conclusions-cards {
+  #platform-redesign .conclusions .conclusions-cards {
     gap: 100px;
   }
-  #home-browsing .feat-func {
+  #platform-redesign .feat-func {
     padding: 100px 180px;
   }
-  #home-browsing .feat-func .laptops .inner-laptop .text-wrapper {
+  #platform-redesign .feat-func .laptops .inner-laptop .text-wrapper {
     max-width: 100%;
   }
-  #home-browsing .final-outcomes {
+  #platform-redesign .final-outcomes {
     width: 100%;
     padding: 100px 180px;
   }
-  #home-browsing .footer-mobile {
+  #platform-redesign .footer-mobile {
     padding: 50px 0;
     width: 100%;
   }
-  #home-browsing .footer-mobile .footer-mobile-wrapper {
+  #platform-redesign .footer-mobile .footer-mobile-wrapper {
     width: 100%;
   }
 }
 @media (max-width: 1200px) {
-  #home-browsing .header-image {
+  #platform-redesign .header-image {
     background-image: url("../asset/header-md.png");
   }
-  #home-browsing .background {
+  #platform-redesign .background {
     padding: 40px;
     width: 100%;
   }
-  #home-browsing .background .section-title {
+  #platform-redesign .background .section-title {
     margin-bottom: 40px;
   }
-  #home-browsing .background img {
+  #platform-redesign .background img {
     width: 100%;
   }
-  #home-browsing .dev-direction {
+  #platform-redesign .dev-direction {
     max-width: 1200px;
   }
-  #home-browsing .user-insights {
+  #platform-redesign .user-insights {
     padding: 40px;
     width: 100%;
   }
-  #home-browsing .stakeholder-insights {
+  #platform-redesign .stakeholder-insights {
     padding: 40px;
   }
-  #home-browsing .conclusions {
+  #platform-redesign .conclusions {
     padding: 40px;
     width: 100%;
   }
-  #home-browsing .conclusions .conclusions-cards {
+  #platform-redesign .conclusions .conclusions-cards {
     flex-direction: column;
   }
-  #home-browsing .conclusions .conclusions-cards .card {
+  #platform-redesign .conclusions .conclusions-cards .card {
     width: 100%;
     max-width: 100%;
   }
-  #home-browsing .conclusions .conclusions-cards .card img {
+  #platform-redesign .conclusions .conclusions-cards .card img {
     max-width: 100%;
     width: 100%;
   }
-  #home-browsing .feat-func {
+  #platform-redesign .feat-func {
     padding: 40px 30px;
     max-width: 100%;
   }
-  #home-browsing .feat-func .section-title {
+  #platform-redesign .feat-func .section-title {
     max-width: 1120px;
     margin: 0 auto 40px;
   }
-  #home-browsing .feat-func .section-name {
+  #platform-redesign .feat-func .section-name {
     padding-top: 40px;
   }
-  #home-browsing .feat-func .laptops .inner-laptop {
+  #platform-redesign .feat-func .laptops .inner-laptop {
     flex-direction: column;
   }
-  #home-browsing .feat-func .laptops .inner-laptop .text-wrapper {
+  #platform-redesign .feat-func .laptops .inner-laptop .text-wrapper {
     max-width: 100%;
   }
-  #home-browsing .feat-func .laptops .inner-laptop .laptop-image {
+  #platform-redesign .feat-func .laptops .inner-laptop .laptop-image {
     width: 100%;
   }
-  #home-browsing .feat-func .laptops .inner-laptop .laptop-image img {
+  #platform-redesign .feat-func .laptops .inner-laptop .laptop-image img {
     width: 100%;
   }
-  #home-browsing .final-outcomes {
+  #platform-redesign .final-outcomes {
     width: 100%;
     padding: 40px;
   }
-  #home-browsing .footer-mobile {
+  #platform-redesign .footer-mobile {
     padding: 50px 0;
     width: 100%;
   }
-  #home-browsing .footer-mobile .footer-mobile-wrapper {
+  #platform-redesign .footer-mobile .footer-mobile-wrapper {
     width: 100%;
   }
-  #home-browsing .user-insights .inner-title {
+  #platform-redesign .user-insights .inner-title {
     margin-top: 80px;
     margin-bottom: 40px;
   }
-  #home-browsing .user-insights .user-insights-cards {
+  #platform-redesign .user-insights .user-insights-cards {
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
   }
-  #home-browsing .user-insights .user-insights-cards .card {
+  #platform-redesign .user-insights .user-insights-cards .card {
     width: 100%;
   }
-  #home-browsing .user-insights .user-insights-cards .card img {
+  #platform-redesign .user-insights .user-insights-cards .card img {
     width: 100%;
   }
-  #home-browsing .user-feedback {
+  #platform-redesign .user-feedback {
     padding: 40px;
   }
-  #home-browsing .user-feedback .user-feedback-cards {
+  #platform-redesign .user-feedback .user-feedback-cards {
     flex-direction: column;
     gap: 40px;
   }
-  #home-browsing .description {
+  #platform-redesign .description {
     padding: 40px;
     flex-direction: column;
     gap: 40px;
   }
-  #home-browsing .description .project-wrapper {
+  #platform-redesign .description .project-wrapper {
     width: 100%;
   }
-  #home-browsing .prototiping {
+  #platform-redesign .prototiping {
     padding: 40px;
   }
 }
 @media (max-width: 992px) {
-  #home-browsing .dev-direction {
+  #platform-redesign .dev-direction {
     max-width: 100%;
   }
-  #home-browsing .user-insights .user-insights-cards {
+  #platform-redesign .user-insights .user-insights-cards {
     flex-direction: column;
   }
-  #home-browsing .footer-mobile .footer-mobile-wrapper img {
+  #platform-redesign .footer-mobile .footer-mobile-wrapper img {
     width: 100%;
   }
-  #home-browsing .lx {
+  #platform-redesign .lx {
     display: none;
   }
-  #home-browsing .md {
+  #platform-redesign .md {
     display: block;
   }
 }
 @media (max-width: 572px) {
-  #home-browsing .conclusions .conclusions-cards {
+  #platform-redesign .conclusions .conclusions-cards {
     flex-direction: column;
   }
-  #home-browsing .conclusions .conclusions-cards .card {
+  #platform-redesign .conclusions .conclusions-cards .card {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

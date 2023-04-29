@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Heebo', sans-serif;
 }
-#home-browsing {
+#platform-redesign {
     overflow-x: hidden;
     .md {
         display: none;
@@ -430,7 +430,7 @@
 }
 
 @media (min-width: 1919px) {
-    #home-browsing {
+    #platform-redesign {
         .section-title {
             max-width: 1440px;
             margin: 0 auto 100px;
@@ -484,7 +484,7 @@
 }
 
 @media (max-width: 1200px) {
-    #home-browsing {
+    #platform-redesign {
         .header-image {
             background-image: url('../asset/header-md.png');
         }
@@ -601,7 +601,7 @@
     }
 }
 @media (max-width: 992px) {
-    #home-browsing {
+    #platform-redesign {
         .dev-direction {
             max-width: 100%;
         }
@@ -627,7 +627,7 @@
 }
 
 @media (max-width: 572px) {
-    #home-browsing {
+    #platform-redesign {
         .conclusions {
             .conclusions-cards {
                 flex-direction: column;
