@@ -1,3 +1,5 @@
+
+
 * {
   padding: 0;
   margin: 0;
@@ -12,8 +14,9 @@
   display: none;
 }
 #platform-redesign .header-image {
-  background-image: url("../asset/header.png");
-  height: 539px;
+  background-image: url("https://freight.cargo.site/t/original/i/20a33abc2b6b06dc91e0c8c832daff12545096e09e7ae48c206ddc5d08844353/header.png");
+  height: 400px;
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -28,14 +31,9 @@
 }
 #platform-redesign .description .title {
   color: #868686;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.01em;
   margin-bottom: 10px;
 }
 #platform-redesign .description .role-text {
-  font-size: 21px;
-  line-height: 29px;
   color: #3F3F3F;
 }
 #platform-redesign .description .role-text span {
@@ -44,9 +42,6 @@
 #platform-redesign .description .project-text {
   white-space: nowrap;
   margin-top: 10px;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.01em;
   color: #3F3F3F;
 }
 #platform-redesign .background {
@@ -73,10 +68,7 @@
   color: #3F3F3F;
 }
 #platform-redesign .user-insights .inner-title {
-  font-size: 28px;
-  line-height: 38px;
   color: #3F3F3F;
-  letter-spacing: 0.01em;
   margin-top: 100px;
   margin-bottom: 50px;
 }
@@ -85,6 +77,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   gap: 50px;
+  margin-top: 50px;
 }
 #platform-redesign .user-insights .user-insights-cards .card {
   border: 1px solid #E1E1E1;
@@ -96,41 +89,22 @@
 }
 #platform-redesign .user-insights .user-insights-cards .card img {
   margin: 0 auto;
-  border: 15px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
 }
 #platform-redesign .user-insights .user-insights-cards .card .name {
-  margin-top: 15px;
-  margin-left: 20px;
-  margin-bottom: 10px;
-  color: #000000;
-  font-size: 21px;
-  line-height: 29px;
 }
 #platform-redesign .user-insights .user-insights-cards .card .text {
-  margin-left: 20px;
-  padding-bottom: 20px;
-  color: #868686;
-  letter-spacing: 0.01em;
-  font-size: 16px;
-  line-height: 24px;
-  padding-right: 20px;
 }
 #platform-redesign .stakeholder-insights {
-  padding: 50px 100px 100px;
+  padding: 100px;
 }
 #platform-redesign .stakeholder-insights .inner-title {
-  font-size: 28px;
-  line-height: 38px;
   color: #3F3F3F;
-  letter-spacing: 0.01em;
   margin-bottom: 50px;
   text-align: center;
 }
 #platform-redesign .stakeholder-insights .inner-text {
   color: #868686;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -146,15 +120,10 @@
 }
 #platform-redesign .stakeholder-insights .stakeholder-insights-card .name {
   color: #3F3F3F;
-  font-size: 21px;
-  line-height: 29px;
   margin-top: 20px;
 }
 #platform-redesign .stakeholder-insights .stakeholder-insights-card .text {
   color: #868686;
-  letter-spacing: 0.01em;
-  font-size: 16px;
-  line-height: 24px;
   margin-top: 10px;
 }
 #platform-redesign .conclusions {
@@ -177,7 +146,6 @@
 }
 #platform-redesign .conclusions .conclusions-cards .card {
   width: 100%;
-  justify-self: center;
 }
 #platform-redesign .conclusions .conclusions-cards .card img {
   margin-bottom: 25px;
@@ -185,15 +153,10 @@
 }
 #platform-redesign .conclusions .conclusions-cards .card .name {
   color: #F9F9F9;
-  letter-spacing: 0.01em;
-  font-size: 28px;
-  line-height: 38px;
   margin-bottom: 10px;
 }
 #platform-redesign .conclusions .conclusions-cards .card .text {
   color: #F1F1F1;
-  font-size: 21px;
-  line-height: 29px;
 }
 #platform-redesign .prototiping {
   background-color: #F9F9F9;
@@ -202,9 +165,6 @@
 #platform-redesign .prototiping .section-name {
   color: #000000;
   text-align: center;
-  letter-spacing: 0.01em;
-  font-size: 16px;
-  line-height: 24px;
   margin-bottom: 15px;
 }
 #platform-redesign .prototiping .prototiping-wrapper {
@@ -222,9 +182,6 @@
   color: #000000;
   text-align: center;
   margin-bottom: 50px;
-  letter-spacing: 0.01em;
-  font-size: 24px;
-  line-height: 32px;
 }
 #platform-redesign .user-feedback .user-feedback-cards {
   display: flex;
@@ -241,23 +198,13 @@
 }
 #platform-redesign .user-feedback .user-feedback-cards .main-title {
   color: #adadad;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
   margin: 30px 30px 0;
 }
 #platform-redesign .user-feedback .user-feedback-cards .name {
-  font-size: 21px;
-  line-height: 29px;
   color: #000000;
   margin: 5px 30px 15px;
 }
 #platform-redesign .user-feedback .user-feedback-cards .text {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.01em;
   color: #adadad;
   margin: 0 30px 30px;
 }
@@ -292,14 +239,9 @@
 #platform-redesign .feat-func .laptop .title {
   padding: 50px 50px 0;
   color: #000000;
-  font-size: 28px;
-  line-height: 38px;
-  letter-spacing: 0.01em;
 }
 #platform-redesign .feat-func .laptop .text {
   padding: 10px 50px 0;
-  font-size: 21px;
-  line-height: 29px;
   color: #868686;
 }
 #platform-redesign .feat-func .laptops {
@@ -337,15 +279,10 @@
 }
 #platform-redesign .feat-func .laptops .inner-laptop .title {
   color: #000000;
-  font-size: 28px;
-  line-height: 38px;
-  letter-spacing: 0.01em;
   margin-bottom: 10px;
 }
 #platform-redesign .feat-func .laptops .inner-laptop .text {
   color: #868686;
-  font-size: 21px;
-  line-height: 29px;
 }
 #platform-redesign .final-outcomes {
   padding: 100px;
@@ -363,23 +300,16 @@
   margin-bottom: 20px;
   gap: 20px;
   color: #FFFFFF;
-  font-weight: 400;
-  font-size: 38px;
-  line-height: 48px;
-  letter-spacing: 0.02em;
 }
 #platform-redesign .final-outcomes .text {
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 29px;
   color: #F9F9F9;
   margin-bottom: 50px;
 }
 #platform-redesign .footer-mobile {
-  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 50px 0px;
 }
 #platform-redesign .footer-mobile .footer-mobile-wrapper {
   background: #FFFFFF;
@@ -389,6 +319,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  max-width: 450px;
+}
+#platform-redesign .footer-mobile .footer-mobile-wrapper:hover {
+	  border: 1px solid #ADADAD;
+    background-color: #F9F9F9
 }
 #platform-redesign .footer-mobile .footer-mobile-wrapper .sign {
   display: flex;
@@ -397,29 +332,19 @@
   width: 100%;
   padding: 20px;
 }
+#platform-redesign .footer-mobile .footer-mobile-wrapper img {
+    width: 100%;
+}
 #platform-redesign .footer-mobile .footer-mobile-wrapper .sign .name {
   color: #3F3F3F;
-  font-size: 21px;
-  line-height: 29px;
 }
 #platform-redesign .footer-mobile .footer-mobile-wrapper .sign .date {
   color: #868686;
-  letter-spacing: 0.01em;
-  font-size: 16px;
-  line-height: 24px;
 }
 #platform-redesign .section-name {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.01em;
-  text-align: center;
 }
 #platform-redesign .section-title {
-  font-size: 38px;
-  font-weight: 400;
-  line-height: 48px;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #3F3F3F;
 }
 #platform-redesign .inner-title {
@@ -437,7 +362,7 @@
     margin: 0 auto 100px;
   }
   #platform-redesign .header-image {
-    background-image: url("../asset/header.png");
+    background-image: url("https://freight.cargo.site/t/original/i/20a33abc2b6b06dc91e0c8c832daff12545096e09e7ae48c206ddc5d08844353/header.png");
   }
   #platform-redesign .background {
     padding: 100px 180px;
@@ -451,7 +376,7 @@
     padding: 100px 180px 50px;
   }
   #platform-redesign .stakeholder-insights {
-    padding: 50px 180px 100px;
+    padding: 100px 180px 100px;
   }
   #platform-redesign .conclusions {
     padding: 100px 180px;
@@ -480,7 +405,7 @@
 }
 @media (max-width: 1200px) {
   #platform-redesign .header-image {
-    background-image: url("../asset/header-md.png");
+    background-image: url("https://freight.cargo.site/t/original/i/c0ef7db807496e7f3b08a620442cf534a71fed86b8027e3fb75d67d1575f3d21/header-md.png");
   }
   #platform-redesign .background {
     padding: 40px;
@@ -501,16 +426,18 @@
   }
   #platform-redesign .stakeholder-insights {
     padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   #platform-redesign .conclusions {
     padding: 40px;
     width: 100%;
   }
   #platform-redesign .conclusions .conclusions-cards {
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
   }
   #platform-redesign .conclusions .conclusions-cards .card {
     width: 100%;
